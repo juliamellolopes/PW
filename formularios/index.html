@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- action e a acao e o method o que sera feito com os dados-->
+    <form action="/salvar" method="post"></form>
+    <label for="id_nome">Nome:</label>
+
+    <!-- input text -->
+    <input type="text"
+        placeholder="Digite o nome"
+        name="nome"
+        id="id_nome">
+
+    <!-- botoens -->
+    <button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pmS1ZgPaiJTpnv_O9f-QiqUvq02dAHRz4A&usqp=CAU"
+        height="30px" width="30px">
+    </button>
+
+    <!-- selecionar arquivos -->
+    <input type="file" accept=".ong, .jpeg">
+    <input type="button" value="ok" onclick="acao">
+    <!-- 
+        number teclado numerico 
+        range permite fazer intervalo cocm valores min e max
+        email
+        tel
+        url endereço 
+     -->
+    <input type="data">
+    <!-- 
+        tipos de calendarios
+        datetime-local
+        month
+        time
+        week
+     -->
+    <!--para senha-->
+    <input type="password">
+    
+    <!--para senha
+        maxlength é a quantidade de caracteres
+        rows numero de linhas
+        id é o codigo daquele espaçamento 
+    -->
+    <textarea name="" id="" cols="25" rows="5" maxlength=""></textarea>
+
+    <!--campos de checagem e seleção
+        type vc escolhe a aparencia da caixinha de escolha
+    -->
+    <label for="emai_id">Aceita erceber e-mail</label>
+    <input id="email_id" type="text" name="receber" value="sim" checked>
+
+    <input type="radio" name="sexo" value="M">
+    <label>MAsculino</label>
+    <input type="radio" name="sexo" value="F">
+    <label>Feminino</label>
+
+    <!--selecionar cores-->
+    <input type="color">
+
+    <!--listas-->
+    <select name="estado" id="estados_id">
+        <!--agrupar informações-->
+        <optiongroup label=" Região Sudeste">
+             <!--escolher as opções-->
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </optiongroup>
+        
+    </select>
+
+    <!--Agrupamento-->
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+    </fieldset>
+
+    <!--Entrada de texto com auto completar-->
+    <datalist id="dias_semana">
+        <option value="segunda"></option>
+    </datalist>
+
+</body>
+</html>
