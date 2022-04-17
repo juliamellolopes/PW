@@ -11,29 +11,47 @@
 </head>
 
 <body>
-    <form action="cadastro.html" method="post">
-        <table>
-            <tr>
-                <td><label for="id_nome">Usuário:</label></td>
-                <td><input type="text"
-                    placeholder="Digite o nome"
-                    name="nome"
-                    id="id_nome"></td>
-            </tr>
+    <!-- topo da pagina -->
+    <header>
+        <h1>JuAnimes</h1>
+    </header>
 
-            <tr>
-                <td><label for="id_senha"> Senha:</label></td>
-                <td><input type="password"
-                    placeholder="Digite a senha"
-                    name="senha"
-                    id="id_senha"></td>
-            </tr>
-            
-            <tr>
-                <td></td>
-                <td><input type="submit" value="Entrar" onclick="acao"></td>
-            </tr>
-        </table>
-    </form>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="criticas.html">Críticas</a></li>
+            <li><a href="cadastro.html">Catalogo</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="quemSomos.html">Quem Somos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <form action="cadastro.html" method="post">
+            <table>
+                <tr>
+                    <td><label for="id_nome">Usuário:</label></td>
+                    <td><input type="text"
+                        placeholder="Digite o nome"
+                        name="nome"
+                        id="id_nome"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="id_senha"> Senha:</label></td>
+                    <td><input type="password"
+                        placeholder="Digite a senha"
+                        name="senha"
+                        id="id_senha"></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Entrar" onclick="acao"></td>
+                </tr>
+            </table>
+        </form>               
+    </section>
+    
 </body>
 </html>
