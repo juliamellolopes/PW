@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+    padding: 0px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    
+}
+
+.pnovo{
+    color: brown;
+}
+#pnovo-novo{
+    color:beige;
+}
+
+.cor-fundo{
+    background-color: chartreuse;
+}
+
+
+.box-teste{
+    border: 3px solid rebeccapurple;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover{
+    text-transform: uppercase;
+    size: 25px;
+    background-color: rgba(202, 39, 39);
+}
