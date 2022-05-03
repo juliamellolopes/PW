@@ -38,3 +38,13 @@ a:hover{
     size: 25px;
     background-color: rgba(202, 39, 39);
 }
+
+.vamosver{
+    float: left;
+}
+
+#conteudo{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+}
