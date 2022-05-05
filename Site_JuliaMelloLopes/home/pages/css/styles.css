@@ -9,6 +9,7 @@ body {
     background-image: url("https://wallpaperaccess.com/full/39033.png");
     background-repeat: no-repeat;
     background-size: cover;
+
     background-attachment: fixed;
     margin: 0%;
     position: absolute;
@@ -18,10 +19,6 @@ body {
 
 header {
     background-color: #204b5e;
-}
-
-.logo {
-    
 }
 
 h1 {
