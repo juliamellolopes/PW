@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: beige;
     padding: 0px;
 }
@@ -48,3 +48,56 @@ a:hover{
     padding: 15px;
     background-color: black;
 }
+
+li ul{
+    overflow: hidden;
+    height: 0;
+    transition: height 1s;
+}
+
+li:hover{
+    background-color: cornflowerblue;
+}
+
+li:hover ul{
+    height: 100px;
+}  */
+
+/* body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, black, blue, white);
+}
+
+/* @font-face {
+    font-family: "nadia";
+    src: url(../fonts/nadia/nadia-sevif.eof);
+    src: url(../fonts/nadia/nadia-servif.woff) fomart('woff');
+} */
+
+/* div{
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+    margin: 10px;
+
+    transition-property: width, height, background-color;
+    transition-duration: 1s, 2s, 3s;
+    transition-timing-function: cubic-bezier(.67, -0.38,.5,1.5),
+        linear, ease-out;
+    transition-delay: 0s, .3s, 0;
+} */
+/* 
+span{
+    background-color: cornflowerblue;
+    width: 800px;
+    display: block;
+}
+body{
+    background-color: brown;
+}
+
+h1{
+    color: white;
+} */
