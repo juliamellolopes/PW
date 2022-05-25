@@ -1,82 +1,85 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
+    font-size: 16px;
     box-sizing: border-box;
-    font-family:'Montserrat Alternates', sans-serif; 
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.container{
+.container {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
 
-html, body{
+html, body {
     height: 100%;
 }
 
-header{
+header {
     padding: 13px 2%;
     background-color: #204b5e;
 }
 
-header .logo img{
+header .logo img {
     padding: 0;
     float: left;
     width: 180px;
 }
 
-header nav{
+header nav {
     float: right;
 }
 
-header nav ul{
+header nav ul {
     padding: 10px 0;
     list-style-type: none;
 }
 
-header nav ul li{
+header nav ul li {
     float: left;
     font-size: 15px;
     padding: 0 20px;
     text-transform: uppercase;
 }
 
-header ul a{
+header ul a {
     color: #b4b4b4;
     text-decoration: none;
 }
 
-.mosaico-single{
+.mosaico-single {
     float: left;
     width: calc(100% / 6);
 }
 
-.img-mosaico-single:nth-last-of-type(1){
-    
+.img-mosaico-single:nth-last-of-type(1) {
+
     width: 100%;
     padding-top: 100%;
     background-image: url('../imagens/anime2-pequena.png');
-    border: 5px solid white; 
+    border: 5px solid white;
 }
 
 
-.img-mosaico-single:nth-last-of-type(2){
-    
+.img-mosaico-single:nth-last-of-type(2) {
+
     width: auto;
     padding-top: 100%;
-    background-image:url('../imagens/anime2-pequena.png');
+    background-image: url('../imagens/anime2-pequena.png');
     max-width: 1000px;
     max-height: 1500px;
-    border: 5px solid white; 
+    border: 5px solid white;
 }
 
 
-section.servicos > .container{
+section.servicos>.container {
     max-width: 800px;
     display: flex;
     align-items: center;
@@ -85,43 +88,43 @@ section.servicos > .container{
     text-align: center;
 }
 
-section.servicos > .container .box-servico h2{
+section.servicos>.container .box-servico h2 {
     color: white;
     font-weight: normal;
     font-size: 35px;
     text-transform: uppercase;
 }
 
-section.servicos > .container .box-servico:nth-of-type(1){
+section.servicos>.container .box-servico:nth-of-type(1) {
     width: 30%;
     padding: 30px 0;
     background: #576975;
 }
 
-section.servicos > .container .box-servico:nth-of-type(2){
+section.servicos>.container .box-servico:nth-of-type(2) {
     width: 40%;
     padding: 45px 0;
     background: #688293;
 }
 
-section.servicos > .container .box-servico:nth-of-type(3){
+section.servicos>.container .box-servico:nth-of-type(3) {
     width: 30%;
     padding: 30px 0;
     background: #576975;
 }
 
 
-section.perfil-container .container{
+section.perfil-container .container {
     max-width: 900px;
 }
 
 
-section.perfil-container .perfil-wraper{
+section.perfil-container .perfil-wraper {
     padding-top: 60%;
     position: relative;
 }
 
-section.perfil-container .perfil-wraper2{
+section.perfil-container .perfil-wraper2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -130,43 +133,43 @@ section.perfil-container .perfil-wraper2{
     height: 100%;
 }
 
-section.perfil-container .img-perfil{
+section.perfil-container .img-perfil {
     width: 50%;
     height: 85%;
     background-image: url(../imagens/JzL1NLQvok7Pghe9W5PP2XNV.webp);
     background-size: 100% 100%;
-    
+
 }
 
-section.perfil-container .texto-perfil{
+section.perfil-container .texto-perfil {
     width: 200%;
-    padding:  50px;
+    padding: 50px;
     text-align: right;
 }
 
-section.perfil-container .texto-perfil h2{
+section.perfil-container .texto-perfil h2 {
     color: #698293;
     font-size: 18px;
 }
 
-section.perfil-container .texto-perfil p{
+section.perfil-container .texto-perfil p {
     font-size: 15px;
     margin-top: 10px;
     text-align: center;
 }
 
 /*2*/
-section.perfil-container2 .container{
+section.perfil-container2 .container {
     max-width: 900px;
 }
 
 
-section.perfil-container2 .perfil-wraper{
+section.perfil-container2 .perfil-wraper {
     padding-top: 60%;
     position: relative;
 }
 
-section.perfil-container2 .perfil-wraper2{
+section.perfil-container2 .perfil-wraper2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -175,42 +178,42 @@ section.perfil-container2 .perfil-wraper2{
     height: 100%;
 }
 
-section.perfil-container2 .img-perfil{
+section.perfil-container2 .img-perfil {
     width: 50%;
     height: 85%;
     background-image: url(../imagens/dac363972d628a7009e04fdeb9d7104a1641869274_full\ \(1\).jpg);
     background-size: 100% 100%;
 }
 
-section.perfil-container2 .texto-perfil{
+section.perfil-container2 .texto-perfil {
     width: 200%;
     padding: 0 50px;
     text-align: right;
 }
 
-section.perfil-container2 .texto-perfil h2{
+section.perfil-container2 .texto-perfil h2 {
     color: #698293;
     font-size: 18px;
 }
 
-section.perfil-container2 .texto-perfil p{
+section.perfil-container2 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
     text-align: center;
 }
 
 /*3*/
-section.perfil-container3 .container{
+section.perfil-container3 .container {
     max-width: 900px;
 }
 
 
-section.perfil-container3 .perfil-wraper{
+section.perfil-container3 .perfil-wraper {
     padding-top: 60%;
     position: relative;
 }
 
-section.perfil-container3 .perfil-wraper2{
+section.perfil-container3 .perfil-wraper2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -219,43 +222,43 @@ section.perfil-container3 .perfil-wraper2{
     height: 100%;
 }
 
-section.perfil-container3 .img-perfil{
+section.perfil-container3 .img-perfil {
     width: 50%;
     height: 85%;
     background-image: url(../imagens/e8e3c09f8450c3d8a90a03e2198688f61515484130_full.jpg);
     background-size: 100% 100%;
 }
 
-section.perfil-container3 .texto-perfil{
+section.perfil-container3 .texto-perfil {
     width: 200%;
     padding: 0 50px;
-    
+
 }
 
-section.perfil-container3 .texto-perfil h2{
+section.perfil-container3 .texto-perfil h2 {
     color: #698293;
     font-size: 18px;
     text-align: right;
 }
 
-section.perfil-container3 .texto-perfil p{
+section.perfil-container3 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
     text-align: right;
 }
 
 /*4*/
-section.perfil-container4 .container{
+section.perfil-container4 .container {
     max-width: 900px;
 }
 
 
-section.perfil-container4 .perfil-wraper{
+section.perfil-container4 .perfil-wraper {
     padding-top: 60%;
     position: relative;
 }
 
-section.perfil-container4 .perfil-wraper2{
+section.perfil-container4 .perfil-wraper2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -264,25 +267,25 @@ section.perfil-container4 .perfil-wraper2{
     height: 100%;
 }
 
-section.perfil-container4 .img-perfil{
+section.perfil-container4 .img-perfil {
     width: 50%;
     height: 85%;
     background-image: url(../imagens/one-piece-resumo-sagas_f.webp);
     background-size: 100% 100%;
 }
 
-section.perfil-container4 .texto-perfil{
+section.perfil-container4 .texto-perfil {
     width: 200%;
     padding: 0 50px;
 }
 
-section.perfil-container4 .texto-perfil h2{
+section.perfil-container4 .texto-perfil h2 {
     color: #698293;
     font-size: 18px;
     text-align: right;
 }
 
-section.perfil-container4 .texto-perfil p{
+section.perfil-container4 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
     text-align: right;
@@ -290,17 +293,17 @@ section.perfil-container4 .texto-perfil p{
 
 
 /*5*/
-section.perfil-container5 .container{
+section.perfil-container5 .container {
     max-width: 900px;
 }
 
 
-section.perfil-container5 .perfil-wraper{
+section.perfil-container5 .perfil-wraper {
     padding-top: 60%;
     position: relative;
 }
 
-section.perfil-container5 .perfil-wraper2{
+section.perfil-container5 .perfil-wraper2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -309,31 +312,31 @@ section.perfil-container5 .perfil-wraper2{
     height: 100%;
 }
 
-section.perfil-container5 .img-perfil{
+section.perfil-container5 .img-perfil {
     width: 50%;
     height: 85%;
     background-image: url(../imagens/JUJUTSU-KAISEN-2x3-1-e1601056263484-1024x679.png);
     background-size: 100% 100%;
 }
 
-section.perfil-container5 .texto-perfil{
+section.perfil-container5 .texto-perfil {
     width: 200%;
     padding: 0 50px;
 }
 
-section.perfil-container5 .texto-perfil h2{
+section.perfil-container5 .texto-perfil h2 {
     color: #698293;
     font-size: 18px;
     text-align: right;
 }
 
-section.perfil-container5 .texto-perfil p{
+section.perfil-container5 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
     text-align: right;
 }
 
-.form{
+.form {
     width: 600px;
     height: calc(100% + 30px);
     float: right;
@@ -345,17 +348,19 @@ section.perfil-container5 .texto-perfil p{
     background-color: rgb(255, 255, 255);
 }
 
-.form h2{
+.form h2 {
     font-weight: normal;
-    color: #999; ;
+    color: #999;
+    ;
     font-size: 21px;
 }
 
-.input-container{
+.input-container {
     margin-top: 20px;
 }
 
-.input-container span, form p{
+.input-container span,
+form p {
     display: inline-block;
     width: 100%;
     color: #BBBB;
@@ -364,48 +369,48 @@ section.perfil-container5 .texto-perfil p{
 
 }
 
-.input-container input[type=text]{
+.input-container input[type=text] {
     margin-top: 10px;
     width: 570px;
     height: 55px;
     border: 1px solid #ccc;
 }
 
-.form .input-submit-container{
+.form .input-submit-container {
     text-align: center;
 }
 
-.form .input-submit-container [type=submit]{
+.form .input-submit-container [type=submit] {
     border: 0;
     color: white;
     font-size: 20px;
     width: 260px;
     height: 52px;
-    background-color:  #2d6a83;
+    background-color: #2d6a83;
 }
 
-.container-banner{
-    width:100%;    
+.container-banner {
+    width: 100%;
     height: 700px;
     background-image: url('../imagens/fundo_pagina.webp');
-    
+
 }
 
 
-.container-text h2{
-        color: white;
-        text-align: left;  
-        padding: 50px 90px;
-        font-weight: lighter;
-        font-size: 50px;
-        font-family: 'Alfa Slab One', cursive;
-        text-shadow: black 0.1em 0.1em 0.2em
+.container-text h2 {
+    color: white;
+    text-align: left;
+    padding: 50px 90px;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
-    
-.container-text h2 > span{
-        color: #204b5e;
-        font-size: 70px;
-        font-family: 'Alfa Slab One', cursive;
+
+.container-text h2>span {
+    color: #204b5e;
+    font-size: 70px;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 footer {
