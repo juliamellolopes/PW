@@ -23,17 +23,26 @@
             const resultado = operador(num1, num2);
             return resultado;           
         }
+        function somarTudao(){
+            let result = 0;
+            for(var i = 0; i<arguments.length; i++){
+                result += arguments[i];
+            }
+            return result
+        }
+        
         function testar(){
-            let num1 = prompt('Digite umm numero:');
-            let num2 = prompt('Digite umm numero:');
-            num1 = parseInt(num1);
-            num2 = parseInt(num2);
+            // let num1 = prompt('Digite umm numero:');
+            // let num2 = prompt('Digite umm numero:');
+            // num1 = parseInt(num1);
+            // num2 = parseInt(num2);
 
-            const result = calculadora(num1, num2, ()=>{
-                const resultado = num1 - num2;
-                console.log('R: '+resultado);
-                return resultado;
-            });
+            // const result = calculadora(num1, num2, ()=>{
+            //     const resultado = num1 - num2;
+            //     console.log('R: '+resultado);
+            //     return resultado;
+            // });
+            const result = somarTudao(2,5);
 
             alert('O resutado é: '+ result);
         }
