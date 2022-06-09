@@ -20,7 +20,7 @@
 
 html, body {
     height: 100%;
-    background-color: black;
+    background-color: rgba(128, 128, 240, 0.842);
     color: white;
 }
 
@@ -65,8 +65,8 @@ header ul a {
 
     width: 100%;
     padding-top: 100%;
-    background-image: url('../imagens/anime2-pequena.png');
-    border: 5px solid black;
+    background-image: url('/Site_JuliaMelloLopes3.0/imagens/anime2-pequena.png');
+    border: 5px solid rgba(128, 128, 240, 0.842);
 }
 
 
@@ -74,10 +74,10 @@ header ul a {
 
     width: auto;
     padding-top: 100%;
-    background-image: url('../imagens/anime2-pequena.png');
+    background-image: url('/Site_JuliaMelloLopes3.0/imagens/anime2-pequena.png');
     max-width: 1000px;
     max-height: 1500px;
-    border: 5px solid black;
+    border: 5px solid rgba(128, 128, 240, 0.842);
 }
 
 
@@ -138,7 +138,7 @@ section.perfil-container .perfil-wraper2 {
 section.perfil-container .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/JzL1NLQvok7Pghe9W5PP2XNV.webp);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/JzL1NLQvok7Pghe9W5PP2XNV.webp);
     background-size: 100% 100%;
 }
 
@@ -149,7 +149,7 @@ section.perfil-container .texto-perfil {
 }
 
 section.perfil-container .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
 }
 
@@ -182,7 +182,7 @@ section.perfil-container2 .perfil-wraper2 {
 section.perfil-container2 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/dac363972d628a7009e04fdeb9d7104a1641869274_full\ \(1\).jpg);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/dac363972d628a7009e04fdeb9d7104a1641869274_full\ \(1\).jpg);
     background-size: 100% 100%;
 }
 
@@ -193,7 +193,7 @@ section.perfil-container2 .texto-perfil {
 }
 
 section.perfil-container2 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
 }
 
@@ -226,7 +226,7 @@ section.perfil-container3 .perfil-wraper2 {
 section.perfil-container3 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/e8e3c09f8450c3d8a90a03e2198688f61515484130_full.jpg);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/e8e3c09f8450c3d8a90a03e2198688f61515484130_full.jpg);
     background-size: 100% 100%;
 }
 
@@ -237,7 +237,7 @@ section.perfil-container3 .texto-perfil {
 }
 
 section.perfil-container3 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
     text-align: right;
 }
@@ -272,7 +272,7 @@ section.perfil-container4 .perfil-wraper2 {
 section.perfil-container4 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/one-piece-resumo-sagas_f.webp);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/one-piece-resumo-sagas_f.webp);
     background-size: 100% 100%;
 }
 
@@ -283,7 +283,7 @@ section.perfil-container4 .texto-perfil {
 }
 
 section.perfil-container4 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
     text-align: right;
 }
@@ -318,7 +318,7 @@ section.perfil-container5 .perfil-wraper2 {
 section.perfil-container5 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/JUJUTSU-KAISEN-2x3-1-e1601056263484-1024x679.png);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/JUJUTSU-KAISEN-2x3-1-e1601056263484-1024x679.png);
     background-size: 100% 100%;
 }
 
@@ -328,7 +328,7 @@ section.perfil-container5 .texto-perfil {
 }
 
 section.perfil-container5 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
     text-align: right;
 }
@@ -366,7 +366,7 @@ section.perfil-container6 .perfil-wraper2 {
 section.perfil-container6 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/9795ee88b06cf9ecc974f21ec86920d2.jpg);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/9795ee88b06cf9ecc974f21ec86920d2.jpg);
     background-size: 100% 100%;
 }
 
@@ -377,7 +377,7 @@ section.perfil-container6 .texto-perfil {
 }
 
 section.perfil-container6 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
     text-align: right;
 }
@@ -411,7 +411,7 @@ section.perfil-container7 .perfil-wraper2 {
 section.perfil-container7 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/AAAABciHwFwSyCqoQ9sVpm536KC8gq_QKbxveTa4kNncROjcgIp05Sk6U4ES51DsRGLTs7crb00D_WrRK28SLbMBu6Yi3chmSbBsKV62UTcd50ciEFSlIkl9T9v7wK4o-A.jpg);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/e8e3c09f8450c3d8a90a03e2198688f61515484130_full.jpg);
     background-size: 100% 100%;
 }
 
@@ -422,7 +422,7 @@ section.perfil-container7 .texto-perfil {
 }
 
 section.perfil-container7 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
 }
 
@@ -455,7 +455,7 @@ section.perfil-container8 .perfil-wraper2 {
 section.perfil-container8 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(../imagens/castlevania1.jpg);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/castlevania1.jpg);
     background-size: 100% 100%;
 }
 
@@ -466,7 +466,7 @@ section.perfil-container8 .texto-perfil {
 }
 
 section.perfil-container8 .texto-perfil h2 {
-    color: #698293;
+    color: #467391;
     font-size: 18px;
 }
 
@@ -540,7 +540,7 @@ form p {
 .container-banner {
     width: 100%;
     height: 700px;
-    background-image: url('../imagens/fundo_pagina.webp');
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/fundo_pagina.webp);
 
 }
 
@@ -564,7 +564,7 @@ form p {
 
 /* rodape */
 footer {
-    background-color: cadetblue;
+    background-color: #204b5e;
     clear: both;
     padding: 2%;
     text-align: center;
@@ -572,7 +572,7 @@ footer {
 }
 
 .footer-menushare{
-    background:cadetblue;	
+    background:#204b5e;	
     padding: .5em;
 }
 
