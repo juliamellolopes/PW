@@ -1,0 +1,587 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 13px 2%;
+    background-color: #204b5e;
+}
+
+header .logo img {
+    padding: 0;
+    float: left;
+    width: 180px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    font-size: 15px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header ul a {
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+.mosaico-single {
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single:nth-last-of-type(1) {
+
+    width: 100%;
+    padding-top: 100%;
+    background-image: url('../imagens/anime2-pequena.png');
+    border: 5px solid black;
+}
+
+
+.img-mosaico-single:nth-last-of-type(2) {
+
+    width: auto;
+    padding-top: 100%;
+    background-image: url('../imagens/anime2-pequena.png');
+    max-width: 1000px;
+    max-height: 1500px;
+    border: 5px solid black;
+}
+
+
+section.servicos>.container {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+section.servicos>.container .box-servico h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+section.servicos>.container .box-servico:nth-of-type(1) {
+    width: 30%;
+    padding: 30px 0;
+    background: #576975;
+}
+
+section.servicos>.container .box-servico:nth-of-type(2) {
+    width: 40%;
+    padding: 45px 0;
+    background: #688293;
+}
+
+section.servicos>.container .box-servico:nth-of-type(3) {
+    width: 30%;
+    padding: 30px 0;
+    background: #576975;
+}
+
+/* home */
+section.perfil-container .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container .perfil-wraper {
+    padding-top: 70%;
+    position: relative;
+}
+
+section.perfil-container .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/JzL1NLQvok7Pghe9W5PP2XNV.webp);
+    background-size: 100% 100%;
+}
+
+section.perfil-container .texto-perfil {
+    width: 50%;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+section.perfil-container .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+section.perfil-container .texto-perfil p {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*2*/
+section.perfil-container2 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container2 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container2 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container2 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/dac363972d628a7009e04fdeb9d7104a1641869274_full\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+
+section.perfil-container2 .texto-perfil {
+    width: 70%;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+section.perfil-container2 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+section.perfil-container2 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/*3*/
+section.perfil-container3 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container3 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container3 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container3 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/e8e3c09f8450c3d8a90a03e2198688f61515484130_full.jpg);
+    background-size: 100% 100%;
+}
+
+section.perfil-container3 .texto-perfil {
+    width: 70%;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+section.perfil-container3 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+    text-align: right;
+}
+
+section.perfil-container3 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: right;
+    text-align: center;
+}
+
+/*4*/
+section.perfil-container4 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container4 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container4 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container4 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/one-piece-resumo-sagas_f.webp);
+    background-size: 100% 100%;
+}
+
+section.perfil-container4 .texto-perfil {
+    width: 70%;
+    padding: 0 50px;
+    text-align: right;
+}
+
+section.perfil-container4 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+    text-align: right;
+}
+
+section.perfil-container4 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+
+/*5*/
+section.perfil-container5 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container5 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container5 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container5 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/JUJUTSU-KAISEN-2x3-1-e1601056263484-1024x679.png);
+    background-size: 100% 100%;
+}
+
+section.perfil-container5 .texto-perfil {
+    width: 70%;
+    padding: 0 50px;
+}
+
+section.perfil-container5 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+    text-align: right;
+}
+
+section.perfil-container5 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+/* criticas */
+.titulo{
+    text-align: center;
+}
+/* 6 */
+section.perfil-container6 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container6 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container6 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container6 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/9795ee88b06cf9ecc974f21ec86920d2.jpg);
+    background-size: 100% 100%;
+}
+
+section.perfil-container6 .texto-perfil {
+    width: 60%;
+    padding: 0 50px;
+    text-align: right;
+}
+
+section.perfil-container6 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+    text-align: right;
+}
+
+section.perfil-container6 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+/* 7 */
+section.perfil-container7 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container7 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container7 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container7 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/AAAABciHwFwSyCqoQ9sVpm536KC8gq_QKbxveTa4kNncROjcgIp05Sk6U4ES51DsRGLTs7crb00D_WrRK28SLbMBu6Yi3chmSbBsKV62UTcd50ciEFSlIkl9T9v7wK4o-A.jpg);
+    background-size: 100% 100%;
+}
+
+section.perfil-container7 .texto-perfil {
+    width: 60%;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+section.perfil-container7 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+section.perfil-container7 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* 8 */
+section.perfil-container8 .container {
+    max-width: 900px;
+}
+
+
+section.perfil-container8 .perfil-wraper {
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container8 .perfil-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container8 .img-perfil {
+    width: 50%;
+    height: 85%;
+    background-image: url(../imagens/castlevania1.jpg);
+    background-size: 100% 100%;
+}
+
+section.perfil-container8 .texto-perfil {
+    width: 60%;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+section.perfil-container8 .texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+section.perfil-container8 .texto-perfil p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* catalogo */
+
+/* quemSomos */
+.text{
+    color: black;
+}
+
+/* login */
+.form {
+    width: 600px;
+    height: calc(100% + 30px);
+    float: right;
+    right: 120px;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+    border: 6px solid #ccc;
+    background-color: rgb(255, 255, 255);
+}
+
+.form h2 {
+    font-weight: normal;
+    color: #999;
+    ;
+    font-size: 21px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container span,
+form p {
+    display: inline-block;
+    width: 100%;
+    color: #BBBB;
+    font-size: 17px;
+    margin: 8px;
+
+}
+
+.input-container input[type=text] {
+    margin-top: 10px;
+    width: 570px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container {
+    text-align: center;
+}
+
+.form .input-submit-container [type=submit] {
+    border: 0;
+    color: white;
+    font-size: 20px;
+    width: 260px;
+    height: 52px;
+    background-color: #2d6a83;
+}
+
+.container-banner {
+    width: 100%;
+    height: 700px;
+    background-image: url('../imagens/fundo_pagina.webp');
+
+}
+
+
+.container-text h2 {
+    color: white;
+    text-align: left;
+    padding: 50px 90px;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.container-text h2>span {
+    color: #204b5e;
+    font-size: 70px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+/* rodape */
+footer {
+    background-color: cadetblue;
+    clear: both;
+    padding: 2%;
+    text-align: center;
+    padding-bottom:2em;
+}
+
+.footer-menushare{
+    background:cadetblue;	
+    padding: .5em;
+}
+
+.footer-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+}
+.footer-menushare a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julia Mello">
+    <meta name="keywords" content="html5,web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scala">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bevan:ital@1&family=Montserrat+Alternates:ital,wght@0,500;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../icomoon/style.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- topo da pagina -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../imagens/julogobrancasemfundo.png">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="criticas.html">CRITICAS</a></li>
+                    <li><a href="catalogo.html">CATALOGO</a></li>
+                    <li><a href="cadastro.html">LOGIN</a></li>
+                    <li><a href="quemSomos.html">QUEM SOMOS</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+    </header>
+
+    <div class="container-banner">
+        <div class="container-text">
+            <h2>Bem-vindo(a) <span>OTAKU!</span></h2>
+        </div>
+        <div class="center">
+            <div class="form">
+                <h2>Preencha o formulário e inicie sua caminhada para ter acesso ao nosso catalogo</h2>
+                <form action="home.html">
+                    <div class="input-container">
+                        <span>Nome*</span>
+                        <input type="text" name="nome" required>
+                    </div>
+                    <div class="input-container">
+                        <span>E-mail*</span>
+                        <input type="text" name="nome" required>
+                    </div>
+                    <div class="input-container">
+                        <span>Telefone*</span>
+                        <input type="text" name="nome" required>
+                    </div>
+                    <p class="warning"> *Campos obrigatórios</p>
+
+                    <div class="input-submit-container">
+                        <input type="submit" name="acao" id="Login" value="Entrar">
+                        <input type="submit" name="acao" id="Cadastrar" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
