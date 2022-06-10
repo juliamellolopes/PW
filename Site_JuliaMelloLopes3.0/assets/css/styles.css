@@ -20,8 +20,7 @@
 
 html, body {
     height: 100%;
-    background-color: rgba(128, 128, 240, 0.842);
-    color: white;
+    color: black;
 }
 
 header {
@@ -66,18 +65,18 @@ header ul a {
     width: 100%;
     padding-top: 100%;
     background-image: url('/Site_JuliaMelloLopes3.0/imagens/anime2-pequena.png');
-    border: 5px solid rgba(128, 128, 240, 0.842);
+    border: 5px solid white;
+    
 }
 
 
 .img-mosaico-single:nth-last-of-type(2) {
-
     width: auto;
     padding-top: 100%;
     background-image: url('/Site_JuliaMelloLopes3.0/imagens/anime2-pequena.png');
     max-width: 1000px;
     max-height: 1500px;
-    border: 5px solid rgba(128, 128, 240, 0.842);
+    border: 5px solid white;
 }
 
 
@@ -385,7 +384,6 @@ section.perfil-container6 .texto-perfil h2 {
 section.perfil-container6 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: right;
 }
 
 /* 7 */
@@ -429,7 +427,6 @@ section.perfil-container7 .texto-perfil h2 {
 section.perfil-container7 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: center;
 }
 
 /* 8 */
@@ -462,7 +459,6 @@ section.perfil-container8 .img-perfil {
 section.perfil-container8 .texto-perfil {
     width: 60%;
     padding: 20px 50px;
-    text-align: right;
 }
 
 section.perfil-container8 .texto-perfil h2 {
@@ -473,7 +469,6 @@ section.perfil-container8 .texto-perfil h2 {
 section.perfil-container8 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: center;
 }
 
 /* catalogo */
@@ -499,7 +494,6 @@ section.perfil-container8 .texto-perfil p {
 .form h2 {
     font-weight: normal;
     color: #999;
-    ;
     font-size: 21px;
 }
 
@@ -544,6 +538,12 @@ form p {
 
 }
 
+.imagem-top{
+    width: 100%;
+    height: 400px;
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/fundo_pagina.webp);
+}
+
 
 .container-text h2 {
     color: white;
@@ -584,4 +584,37 @@ footer {
     font-size: 1.1em;
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 48.75em) {
+    .container-banner {
+        width: 100%;
+        height: 200vw;
+        background-image: url(/Site_JuliaMelloLopes3.0/imagens/fundo_pagina.webp);
+        background-size: cover;
+    }
+    .container-text{
+        padding: 0px 20px;
+        font-size: 20px;
+    }
+    .form{
+        width: 75%;
+        display: inline;
+        right: 70px;
+    }
+    .input-container input[type=text] {
+        margin-top: 10px;
+        width: 90%;
+        height: 55px;
+        border: 1px solid #ccc;
+    }
+   
+    .form .input-submit-container [type=submit] {
+        border: 0;
+        color: white;
+        font-size: 20px;
+        width: 120px;
+        height: 52px;
+        background-color: #2d6a83;
+    }
 }
