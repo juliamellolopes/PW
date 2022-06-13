@@ -155,7 +155,6 @@ section.perfil-container .texto-perfil h2 {
 section.perfil-container .texto-perfil p {
     font-size: 15px;
     margin-top: 10px;
-    text-align: center;
 }
 
 /*2*/
@@ -199,7 +198,6 @@ section.perfil-container2 .texto-perfil h2 {
 section.perfil-container2 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: center;
 }
 
 /*3*/
@@ -244,8 +242,6 @@ section.perfil-container3 .texto-perfil h2 {
 section.perfil-container3 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: right;
-    text-align: center;
 }
 
 /*4*/
@@ -290,7 +286,6 @@ section.perfil-container4 .texto-perfil h2 {
 section.perfil-container4 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: right;
 }
 
 
@@ -335,7 +330,6 @@ section.perfil-container5 .texto-perfil h2 {
 section.perfil-container5 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
-    text-align: right;
 }
 
 /* criticas */
@@ -378,7 +372,6 @@ section.perfil-container6 .texto-perfil {
 section.perfil-container6 .texto-perfil h2 {
     color: #467391;
     font-size: 18px;
-    text-align: right;
 }
 
 section.perfil-container6 .texto-perfil p {
@@ -459,6 +452,7 @@ section.perfil-container8 .img-perfil {
 section.perfil-container8 .texto-perfil {
     width: 60%;
     padding: 20px 50px;
+    text-align: right;
 }
 
 section.perfil-container8 .texto-perfil h2 {
