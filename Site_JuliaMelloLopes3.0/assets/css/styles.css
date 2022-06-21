@@ -267,7 +267,7 @@ section.perfil-container4 .perfil-wraper2 {
 section.perfil-container4 .img-perfil {
     width: 50%;
     height: 85%;
-    background-image: url(/Site_JuliaMelloLopes3.0/imagens/one-piece-resumo-sagas_f.webp);
+    background-image: url(/Site_JuliaMelloLopes3.0/imagens/One_Piece.webp);
     background-size: 100% 100%;
 }
 
@@ -330,6 +330,7 @@ section.perfil-container5 .texto-perfil h2 {
 section.perfil-container5 .texto-perfil p {
     font-size: 14px;
     margin-top: 8px;
+    text-align: right;
 }
 
 /* criticas */
@@ -563,6 +564,7 @@ footer {
     padding: 2%;
     text-align: center;
     padding-bottom:2em;
+    color: white;
 }
 
 .footer-menushare{
